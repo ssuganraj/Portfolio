@@ -1,0 +1,17 @@
+{
+  "name": "Suganraj S Portfolio",
+  "short_name": "Suganraj S",
+  "description": "AI/ML Engineer & Backend Developer Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b5fff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
+
