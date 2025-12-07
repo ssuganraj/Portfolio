@@ -87,9 +87,7 @@ VITE_WEB3FORMS_KEY=your_api_key_here
 
 ## 🚢 Deployment to Vercel
 
-### Initial Deployment
-
-#### Method 1: Deploy via Vercel Dashboard
+### Method 1: Deploy via Vercel Dashboard
 
 1. Push your code to GitHub
 2. Go to [vercel.com](https://vercel.com) and sign in
@@ -103,7 +101,7 @@ VITE_WEB3FORMS_KEY=your_api_key_here
    - Add `VITE_WEB3FORMS_KEY` with your API key
 6. Click "Deploy"
 
-#### Method 2: Deploy via Vercel CLI
+### Method 2: Deploy via Vercel CLI
 
 1. Install Vercel CLI:
 ```bash
@@ -116,25 +114,6 @@ vercel
 ```
 
 3. Follow the prompts to link your project
-
-### Updating Your Deployment
-
-After making code changes, update your live site:
-
-**Quick Update (GitHub connected):**
-```bash
-git add .
-git commit -m "Your changes"
-git push origin main
-```
-Vercel automatically deploys when you push to `main` branch.
-
-**Manual Deploy (CLI):**
-```bash
-vercel --prod
-```
-
-📖 **For detailed update instructions, see [UPDATE_DEPLOYMENT.md](./UPDATE_DEPLOYMENT.md)**
 
 ### Custom Domain (Optional)
 
