@@ -113,14 +113,6 @@ const ContactForm = () => {
           ? 'Error - Try Again'
           : 'Send Message'}
       </button>
-
-      {!web3formsKey && (
-        <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
-          Contact form will open your email client. To enable form submission,
-          set <code className="bg-gray-100 dark:bg-gray-800 px-1 rounded">VITE_WEB3FORMS_KEY</code> in your environment
-          variables.
-        </p>
-      )}
     </form>
   )
 }
