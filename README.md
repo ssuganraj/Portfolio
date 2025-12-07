@@ -28,26 +28,7 @@ npm run dev
 
 4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## 📜 Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production (outputs to `dist/`)
-- `npm run preview` - Preview production build locally
-- `npm run format` - Format code with Prettier
-
-## 🎨 Customization
-
-### Replace Profile Image
-
-1. Add your profile photo to `public/profile-placeholder.jpg`
-2. The image should be square (recommended: 800x800px or larger)
-3. The component will automatically use the new image
-
-### Replace Resume
-
-1. Add your resume PDF to `public/resume/Suganraj_S_Resume.pdf`
-2. The file name must match exactly: `Suganraj_S_Resume.pdf`
-3. The "View Resume" button will link to this file
 
 ### Update Content
 
